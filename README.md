@@ -33,9 +33,12 @@ The model is built using TensorFlow (ANN) and deployed using Streamlit, containe
 - Threshold: 0.5 for classification
 
 ---
+## Streamlit link
+- https://annclassificationchrun.streamlit.app/
 
+---
 ## ▶️ Run with Docker
 
 ```bash
-docker pull <your-username>/churn-app
+docker push rohitpeluri/churn-app:tagname
 docker run -p 8501:8501 <your-username>/churn-app
