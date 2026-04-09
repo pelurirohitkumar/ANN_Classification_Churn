@@ -41,4 +41,4 @@ The model is built using TensorFlow (ANN) and deployed using Streamlit, containe
 
 ```bash
 docker push rohitpeluri/churn-app:tagname
-docker run -p 8501:8501 <your-username>/churn-app
+docker run -p 8501:8501 rohitpeluri/churn-app
